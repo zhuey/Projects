@@ -16,6 +16,7 @@ SV_0 = np.array([phi_dl_an_0, phi_dl_ca_0]) #how to account for two different ph
 
 # Load inputs and other parameters into 'pars' class:
 class pars:
+    #r is for changing radius, weight percent fixed. W is for changing weight percent.
     eps_gr_r = np.divide(W_gr_list[6], density_gr * H_an * A_an)
     eps_si_r = np.divide(W_si_list[1], density_si * H_an * A_an)
     eps_gr_list_W = np.divide(W_gr_list, density_gr * (H_an * A_an))

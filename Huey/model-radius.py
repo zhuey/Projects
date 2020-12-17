@@ -7,7 +7,6 @@ from init import SV_0, t_final, pars
 
 time_span = np.array([0,t_final])
 
-#solution = np.zeros_like(pars.A_fac_si_list)
 pars.A_fac_gr = pars.A_fac_gr_r[0]
 pars.i_ext = pars.i_ext_r
 pars.eps_gr = pars.eps_gr_r
